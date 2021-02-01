@@ -1,47 +1,9 @@
 var express = require('express');
 var app = express();
 
+var helmet = require('helmet');
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+app.use(helmet())
 
 
 
